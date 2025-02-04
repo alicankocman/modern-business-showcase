@@ -9,13 +9,37 @@ A modern business website built with Next.js and TypeScript, featuring a respons
 * Tailwind CSS
 # 📁 Project Structure
 ``` Map
-├── components/
-│   ├── Home/
-│   │   └── WhyChoose/
-│   │       └── WhyChooseCard.tsx
-├── pages/
-├── public/
-└── styles/
+├── components/                     # All React components
+│   ├── Home/                      # Homepage components
+│   │   ├── AnalyticsFeature/     # Analytics features section
+│   │   │   └── AnalyticsFeature.tsx
+│   │   ├── Feature/              # Main features section
+│   │   │   └── Feature.tsx
+│   │   ├── Footer/              # Footer section
+│   │   │   └── Footer.tsx
+│   │   ├── Hero/                # Hero banner section
+│   │   │   └── Hero.tsx
+│   │   ├── Home.tsx            # Main home container
+│   │   ├── Navbar/             # Navigation components
+│   │   │   ├── Nav.tsx         # Desktop navigation
+│   │   │   ├── MobileNav.tsx   # Mobile navigation
+│   │   │   └── ResponsiveNav.tsx # Responsive nav controller
+│   │   ├── Offer/              # Special offers section
+│   │   │   └── Offer.tsx
+│   │   ├── Price/              # Pricing section
+│   │   │   ├── Price.tsx       # Pricing cards container
+│   │   │   └── PriceCard.tsx   # Individual price card
+│   │   ├── Review/             # Customer reviews section
+│   │   │   ├── Review.tsx      # Reviews carousel
+│   │   │   └── ReviewCard.tsx  # Individual review card
+│   │   └── WhyChoose/          # Why choose us section
+│   │       ├── WhyChoose.tsx   # Features container
+│   │       └── WhyChooseCard.tsx # Individual feature card
+├── pages/                      # Page routing
+├── public/                     # Static assets
+│   └── images/                 # Image files
+└── styles/                     # CSS styles
+    └── globals.css            # Global styles
 ```
 
 # 💻 Key Features
@@ -39,19 +63,6 @@ npm run dev
 
 ```
 
-# 📝 Usage
-
-``` jsx
-import { WhyChooseCard } from '@/components/Home/WhyChoose/WhyChooseCard'
-
-// Example usage
-<WhyChooseCard
-  image="/path/to/image.png"
-  title="Feature Title"
-  linkText="Learn More"
-/>
-
-```
 # 📄 License
 MIT License
 # 👥 Contributing
