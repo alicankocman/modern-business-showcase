@@ -14,7 +14,7 @@ const Hero = () => {
                       <p className='text-xs sm:text-sm'>We have updated our term & condition policy</p>
                   </div>
                  {/* Heading */}
-                 <h1 className='text-2xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3.5rem]'>The premier workspace companion for your daily needs.</h1>
+                 <h1 data-aos='fade-up' className='text-2xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3.5rem]'>The premier workspace companion for your daily needs.</h1>
                  {/* Description */}
                  <p className='text-gray-600'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ipsam maiores blanditiis! Tempore reprehenderit nobis, ducimus molestias neque voluptate fugiat?</p>
                  {/* play store and app store image */}
@@ -35,7 +35,7 @@ const Hero = () => {
                  </div>
               </div>
               {/* Image Content */}
-              <div className='hidden lg:block'>
+              <div data-aos='fade-up' data-aos-delay='200' className='hidden lg:block'>
                   <img src='./images/hero.png' alt='hero' width={700} height={700}/>
               </div>
           </div>
