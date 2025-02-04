@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Modern Business Showcase Project
+### 🌟 Project Overview
+A modern business website built with Next.js and TypeScript, featuring a responsive design and professional components.
+# 🚀 Tech Stack
+* Next.js
+* TypeScript
+* React
+* Tailwind CSS
+# 📁 Project Structure
+``` Map
+├── components/
+│   ├── Home/
+│   │   └── WhyChoose/
+│   │       └── WhyChooseCard.tsx
+├── pages/
+├── public/
+└── styles/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 💻 Key Features
+* Modern UI/UX design
+* Responsive layout
+* Type-safe development
+* SEO friendly
+* Performance optimized
+* Component-based architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🛠️ Installation
+``` jsx
+# Clone the repository
+git clone https://github.com/alicankocman/modern-business-showcase.git
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Install dependencies
+npm install
 
-## Learn More
+# Run development server
+npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 📝 Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+``` jsx
+import { WhyChooseCard } from '@/components/Home/WhyChoose/WhyChooseCard'
 
-## Deploy on Vercel
+// Example usage
+<WhyChooseCard
+  image="/path/to/image.png"
+  title="Feature Title"
+  linkText="Learn More"
+/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+# 📄 License
+MIT License
+# 👥 Contributing
+Contributions, issues, and feature requests are welcome!
+📧 Contact
+GitHub: @alicankocman
+Email: kocmanalican@gmail.com
