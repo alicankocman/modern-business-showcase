@@ -55,6 +55,6 @@ import { WhyChooseCard } from '@/components/Home/WhyChoose/WhyChooseCard'
 MIT License
 # 👥 Contributing
 Contributions, issues, and feature requests are welcome!
-📧 Contact
-GitHub: @alicankocman
-Email: kocmanalican@gmail.com
+# 📧 Contact
+* GitHub: @alicankocman
+* Email: kocmanalican@gmail.com
